@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23AE7DBF-AD46-498F-815B-DE3512570540}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Gestiune_Coafor</RootNamespace>
+    <AssemblyName>Gestiune Coafor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Angajati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Angajati.Designer.cs">
+      <DependentUpon>Angajati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BazaDeDateMF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BazaDeDateMF.Designer.cs">
+      <DependentUpon>BazaDeDateMF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Credits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Credits.Designer.cs">
+      <DependentUpon>Credits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Furnizori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Furnizori.Designer.cs">
+      <DependentUpon>Furnizori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marfa.Designer.cs">
+      <DependentUpon>Marfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MFdbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MFdbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MFdbDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MFdbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MFdbDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MFdbDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MFdbDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MFdbDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Programari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Programari.Designer.cs">
+      <DependentUpon>Programari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Angajati.resx">
+      <DependentUpon>Angajati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BazaDeDateMF.resx">
+      <DependentUpon>BazaDeDateMF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Credits.resx">
+      <DependentUpon>Credits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Furnizori.resx">
+      <DependentUpon>Furnizori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marfa.resx">
+      <DependentUpon>Marfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Programari.resx">
+      <DependentUpon>Programari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="MFdbDataSet.xsc">
+      <DependentUpon>MFdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MFdbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MFdbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MFdbDataSet.xss">
+      <DependentUpon>MFdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MFdbDataSet1.xsc">
+      <DependentUpon>MFdbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MFdbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MFdbDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MFdbDataSet1.xss">
+      <DependentUpon>MFdbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MFdbDataSet2.xsc">
+      <DependentUpon>MFdbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MFdbDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MFdbDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MFdbDataSet2.xss">
+      <DependentUpon>MFdbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MFdbDataSet3.xsc">
+      <DependentUpon>MFdbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="MFdbDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MFdbDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MFdbDataSet3.xss">
+      <DependentUpon>MFdbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background mada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo mada no ellipse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo mada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo mada no ellipse1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angajati.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\furnizori.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marfa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\programari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo mada no ellipse2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MFdb.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MFdb_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>MFdb.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

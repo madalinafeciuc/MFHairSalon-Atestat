@@ -1,0 +1,38 @@
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\bin\Debug\Gestiune Coafor.exe.config
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\bin\Debug\Gestiune Coafor.exe
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\bin\Debug\Gestiune Coafor.pdb
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.Properties.Resources.resources
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune Coafor.csproj.GenerateResource.cache
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune Coafor.csproj.CoreCompileInputs.cache
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune Coafor.exe
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune Coafor.pdb
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.LoginForm.resources
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.BazaDeDateMF.resources
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.Angajati.resources
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.MainMenu.resources
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.Marfa.resources
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\bin\Debug\MFdb.mdf
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\bin\Debug\MFdb_log.ldf
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.Furnizori.resources
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.Programari.resources
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.Credits.resources
+C:\Users\filip\source\repos\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune Coafor.csproj.AssemblyReference.cache
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\bin\Debug\MFdb.mdf
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\bin\Debug\MFdb_log.ldf
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\bin\Debug\Gestiune Coafor.exe.config
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\bin\Debug\Gestiune Coafor.exe
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\bin\Debug\Gestiune Coafor.pdb
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune Coafor.csproj.AssemblyReference.cache
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.Angajati.resources
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.BazaDeDateMF.resources
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.Credits.resources
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.Furnizori.resources
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.LoginForm.resources
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.MainMenu.resources
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.Marfa.resources
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.Programari.resources
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune_Coafor.Properties.Resources.resources
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune Coafor.csproj.GenerateResource.cache
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune Coafor.csproj.CoreCompileInputs.cache
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune Coafor.exe
+C:\Users\filip\Desktop\Gestiune Coafor\Gestiune Coafor\obj\Debug\Gestiune Coafor.pdb
