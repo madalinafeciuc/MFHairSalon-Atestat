@@ -20,7 +20,7 @@ namespace Gestiune_Coafor
         }
 
 
-        SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\MFdb.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\MFdb.mdf;Integrated Security=True;Connect Timeout=30");
 
 
 
