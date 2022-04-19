@@ -150,7 +150,7 @@ namespace Gestiune_Coafor
             // 
             this.back_btn.BackColor = System.Drawing.Color.Transparent;
             this.back_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.back_btn.Location = new System.Drawing.Point(25, 674);
+            this.back_btn.Location = new System.Drawing.Point(790, 12);
             this.back_btn.Name = "back_btn";
             this.back_btn.Size = new System.Drawing.Size(165, 59);
             this.back_btn.TabIndex = 2;

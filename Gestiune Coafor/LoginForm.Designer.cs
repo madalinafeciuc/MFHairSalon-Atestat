@@ -104,7 +104,7 @@ namespace Gestiune_Coafor
             // login_btn
             // 
             this.login_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.login_btn.Location = new System.Drawing.Point(419, 674);
+            this.login_btn.Location = new System.Drawing.Point(760, 590);
             this.login_btn.Name = "login_btn";
             this.login_btn.Size = new System.Drawing.Size(171, 60);
             this.login_btn.TabIndex = 3;
@@ -127,7 +127,7 @@ namespace Gestiune_Coafor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = (System.Drawing.Image)global::Gestiune_Coafor.Properties.Resources.background_mada;
+            this.BackgroundImage = global::Gestiune_Coafor.Properties.Resources.background_mada;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(967, 745);
             this.Controls.Add(this.back_btn);
