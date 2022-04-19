@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Data.Sql;
 
 namespace Gestiune_Coafor
 {
@@ -18,11 +19,13 @@ namespace Gestiune_Coafor
             InitializeComponent();
         }
 
+
         SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\MFdb.mdf;Integrated Security=True;Connect Timeout=30");
-        
-        
-        
-        
+
+
+
+
+
 
 
 
